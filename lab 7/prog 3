@@ -1,0 +1,10 @@
+print("Neetigya,24bee113")
+dict =[{'Dept.no.': 900 , 'Emp.rollno.': 109 , 'Salary': 500001},
+       {'Dept.no.': 901 , 'Emp.rollno.': 100, 'Salary': 510000},
+       {'Dept.no.': 902 , 'Emp.rollno.': 119 , 'Salary': 500000},
+       {'Dept.no.': 910 , 'Emp.rollno.': 101 , 'Salary': 500020},
+       {'Dept.no.': 920 , 'Emp.rollno.': 191 , 'Salary': 500200}]
+f = max (dict, key=lambda  x:x['Salary'])
+g= min (dict, key=lambda  x:x['Salary'])
+print(f"The maximum value of dictionary is :  {f}")
+print(f"The maximum value of dictionary is :  {g}")
